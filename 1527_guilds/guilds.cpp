@@ -80,7 +80,11 @@ int main() {
 			//end = clock();
 			//double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
     		//cout << "Time taken by program is : " << fixed 
+<<<<<<< HEAD
          	//	<< time_taken;
+=======
+         		//<< time_taken;
+>>>>>>> e19ce9cf4ff4dead15c6a7e8db071902dac85b28
     		//cout << " sec " << endl;
     		return 0; 
 		}	
