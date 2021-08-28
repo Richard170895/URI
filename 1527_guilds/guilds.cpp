@@ -10,8 +10,8 @@
 using namespace std;
 
 int main() {
-	time_t start, end;
-	start = clock();
+	//time_t start, end;
+	//start = clock();
 	int n, m, i, j, last;
 	int action, player1, player2; //input... what to do and players' ids
 	int gp1, gp2; //guilds of players to compare
@@ -77,11 +77,11 @@ int main() {
 			cout << wins << '\n';
 		}
     	else {
-			end = clock();
-			double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
-    		cout << "Time taken by program is : " << fixed 
-         		<< time_taken;
-    		cout << " sec " << endl;
+			//end = clock();
+			//double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
+    		//cout << "Time taken by program is : " << fixed 
+         	//	<< time_taken;
+    		//cout << " sec " << endl;
     		return 0; 
 		}	
 	}
